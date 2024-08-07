@@ -56,20 +56,93 @@
     */
 
     /* 👉 Task 1 - [HINT] only the flex container needs to be manipulated */
+    #flexContainer1 {
+      display: flex;
+      justify-content: space-evenly;
+    }
 
     /* 👉 Task 2 - [HINT] the flex container needs to change direction */
+    #flexContainer2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
 
     /* 👉 Task 3 - [HINT] the flex direction can be reversed */
+    #flexContainer3 {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+    }
 
     /* 👉 Task 4 - [HINT] the flex items need a new order */
-
+    #flexContainer4 {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
     /* 👉 Task 5 - [HINT] research align-self */
+    #flexContainer5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #flexContainer5 .flexItem:nth-child(2) {
+      align-self: center;
+    }
 
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
+    #flexContainer6 {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end; 
+    }
+    #flexContainer6 .flexItem:nth-child(1) {
+      display: flex;
+      align-self:flex-end;
+      justify-content:flex-end;
+    }
+    #flexContainer6 .flexItem:nth-child(2) {
+      display: flex;
+      align-self:flex-end;
+      align-items: flex-end;
+    }
 
     /* 👉 Task 7 - [HINT] research flex-grow */
+    #flexContainer7 {
+      display: flex;
+    }
+    #flexContainer7 .flexItem:nth-child(2) {
+      display: flex;
+      flex-grow: .3;
+    }
+    #flexContainer7 .flexItem:nth-child(3) {
+      display: flex;
+      flex-grow: 1;
+    }
 
     /* 👉 Task 8 - [HINT] you got this! */
+    #flexContainer8 {
+      display: flex;
+      justify-content: space-between;
+    }
+    #flexContainer8 .flexItem:nth-child(1) {
+      display: flex;
+      justify-content: flex-end;
+    }
+    #flexContainer8 .flexItem:nth-child(2) {
+      display: flex;
+      align-self: center;
+      justify-content: center;
+    }
+    #flexContainer8 .flexItem:nth-child(3) {
+      display: flex;
+      justify-content: flex-start;
+      align-self: flex-end;
+    }
 
 
     /*
